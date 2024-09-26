@@ -27,7 +27,7 @@ prices = []
 timestamps = []
 
 app.layout = html.Div([
-    html.H1("Monitor de Preço de Criptomoedas em Tempo Real (Binance API)"),
+    html.H1("Monitor de Preço de Criptomoedas em Tempo Real"),
     dcc.Dropdown(
         id='crypto-dropdown',
         options=[
